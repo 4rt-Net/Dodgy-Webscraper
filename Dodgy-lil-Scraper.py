@@ -4,11 +4,6 @@
 Simple Webscraper using proxies and random user-agents - for educational purposes only!
 
 Do not use this code on websites if you are not authorized to do so. 
-
-Please keep in mind:
-Obfuscating your user-agent may be considered a violation of a website's terms of service, 
-Additionally, certain uses of user agent spoofing, such as scraping content or automating clicks on ads, 
-may be considered illegal in some cases.
 '''
 
 import random
