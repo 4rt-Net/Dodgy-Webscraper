@@ -21,3 +21,4 @@ If you would like to learn more about python I would highly recommend his course
 <br />
 Lastly:<br />
 Hack for the greater good and not for causing harm or breaking the law!
+This projects may change from time to time as quality of life features are added.
