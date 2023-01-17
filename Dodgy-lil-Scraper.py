@@ -16,16 +16,16 @@ from random import randrange
 import requests
 from collections import namedtuple
 
-#Reads ip address from a text file (ip_addresses.txt)
+#Reads urls from text file (addresses.txt)
 def read_addresses():
     with open("addresses.txt", "r") as file:
         addresses = file.read().splitlines()
     return addresses
 
-#list of Proxy servers to use for each request (random) - Add proxy servers
-http_proxies = ["IP:Port", "", "", "", ""]
+#list of Proxy servers to use for each request - Add proxy servers
+http_proxies = ["10.0.0.1:8888", "", "", "", ""]
 
-#list of User-agents to use for each request (random) - Add user-agent strings
+#list of User-agents to use for each request - Add user-agent strings
 user_agents = [
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36",
 "",
@@ -35,17 +35,19 @@ user_agents = [
 "",
 ]
 
-
+#choose random user-agent from list
 def random_agent():
     agent_index = randrange(0, len(user_agents))
     headers = {"user-agent": "{}".format(user_agents[agent_index])}
     return headers
 
+#choose random proxy from list
 def random_proxy():
     proxy_index = randrange(0, len(http_proxies))
     proxy = {"http://": "{}".format(http_proxies[proxy_index])}
     return proxy
 
+#Requests site data
 def scraper_request(ip_address):
     r = requests.get(address, proxies=random_proxy(), headers=random_agent())
     return r.text, r.cookies
