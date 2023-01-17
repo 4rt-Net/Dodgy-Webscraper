@@ -3,7 +3,7 @@
 '''
 Simple Webscraper using proxies and random user-agents - for educational purposes only!
 
-Do not use this code on websites if you are not authorized to do so. 
+Do not use this code on websites that you are not authorized to scrape. 
 '''
 
 import random
