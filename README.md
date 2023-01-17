@@ -20,5 +20,5 @@ Slight modifications to a "skeleton" provided by Cody Jackson from Ec-Council.
 <br />
 <br />
 Lastly:<br />
-Hack for the greater good and not for causing harm or breaking the law!
-This projects may change from time to time as quality of life features are added.
+Use your knowledge for good!<br />
+Projects may change from time to time as quality of life features are added.
