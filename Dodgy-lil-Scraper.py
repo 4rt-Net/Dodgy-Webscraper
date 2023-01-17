@@ -22,10 +22,10 @@ def read_addresses():
         addresses = file.read().splitlines()
     return addresses
 
-#list of Proxy servers to use for each request (random)
+#list of Proxy servers to use for each request (random) - Add proxy servers
 http_proxies = ["IP:Port", "", "", "", ""]
 
-#list of User-agents to use for each request (random)
+#list of User-agents to use for each request (random) - Add user-agent strings
 user_agents = [
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36",
 "",
@@ -50,7 +50,7 @@ def scraper_request(ip_address):
     r = requests.get(address, proxies=random_proxy(), headers=random_agent())
     return r.text, r.cookies
 
-#end result: Requests data from each address in addresses.txt and writes the received data to a sites.html file. 
+#Results are saved in sites.html file - extension can be changed as needed. 
 if __name__ == "__main__":
     addresses = read_addresses()
     for address in addresses:
