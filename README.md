@@ -1,4 +1,4 @@
-# DWebscraper
+# Dodgy Webscraper
 Just a dodgy little Webscraper
 
 Simple Webscraper using proxies and random user-agents - for educational purposes only!<br />
