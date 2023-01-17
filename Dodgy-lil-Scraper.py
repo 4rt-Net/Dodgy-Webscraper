@@ -52,7 +52,7 @@ def scraper_request(ip_address):
     r = requests.get(address, proxies=random_proxy(), headers=random_agent())
     return r.text, r.cookies
 
-#Results are saved in sites.html file - extension can be changed as needed. 
+##All results are saved in sites.html file with "New Site:" break between sites. 
 if __name__ == "__main__":
     addresses = read_addresses()
     for address in addresses:
