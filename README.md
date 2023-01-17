@@ -16,7 +16,7 @@ Some laws such as the General Data Protection Regulation (GDPR) or California Co
 <br />
 Disclaimer:<br />
 Slight modifications to a "skeleton" provided by Cody Jackson from Ec-Council.
-If you would like to learn more about python I would highly recommend his courses!
+<br />
 <br />
 <br />
 Lastly:<br />
