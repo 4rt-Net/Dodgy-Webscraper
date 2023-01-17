@@ -2,7 +2,7 @@
 Just a dodgy little Webscraper
 
 Simple Webscraper using proxies and random user-agents - for educational purposes only!<br />
-Do not use this code on websites if you are not authorized to do so. <br />
+Do not use this code on websites that you are not authorized to scrape. <br />
 <br />
 Please keep in mind:<br />
 Obfuscating your user-agent may be considered a violation of a website's terms of service, 
