@@ -15,7 +15,8 @@ Some laws such as the General Data Protection Regulation (GDPR) or California Co
 <br />
 <br />
 Disclaimer:<br />
-Slight modifications to a "skeleton" provided by Cody Jackson from Ec-Council.
+Slight modifications to a "skeleton" provided by Cody Jackson from Ec-Council.<br />
+If you would like to learn more about Python for pentesters - check out ECC CodeRed!
 <br />
 <br />
 <br />
